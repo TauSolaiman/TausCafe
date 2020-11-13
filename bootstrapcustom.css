@@ -1,0 +1,114 @@
+/* CSS Document */
+
+/* change the background color */
+
+.header, .row, .p{
+	font-family: serif;
+	color: black;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/Banner.png);
+	background-repeat: no-repeat;
+	background-color: #C69B72;
+}
+
+
+footer, nav.navbar{
+	background-color: white;
+	padding-top: 1rem;
+	padding-bottom: 1 rem;
+	padding-left: 5em;
+}
+
+/* change the brand and text color */
+ 
+.navbar-custom .navbar-nav .nav-link{
+	color: black;
+	font-size: 1.2em;
+	}
+
+
+/* Carousel */
+
+.carousel {
+  margin-bottom: 4rem;
+
+}
+
+.carousel-inner img {
+	object-fit: cover;
+	 height: 40rem;
+  }
+  
+/* Footer */
+
+footer {
+		color: black;
+		padding: 1rem;
+		margin-top: 3rem;
+		text-align: center;
+		font-family: serif;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	text-align: center;
+	padding-top: 10rem; 
+	padding-bottom: 20rem; 
+}
+
+
+.bgcustom {
+	background-color: white;
+	background-size: cover;
+	color: black;
+	height: 40rem;
+	width: 100%;
+}
+
+.tea-banner {
+	background-color: white;
+	background-size: cover;
+	background-image: url(images/teapeople.jpg);
+	height: 40rem;
+	width: 100%;
+}
+
+.coffee-banner {
+	background-color: white;
+	background-size: cover;
+	background-image: url(images/coffeepeople.jpg);
+	height: 40rem;
+	width: 100%;
+}
+
+.container {
+padding-top: 5em;
+text-align: center;
+color: black;
+}
+
+.row {
+	padding-top: 2em;
+	text-align: center;
+}
+
+.img-thumbnail {
+	border-radius: 25px;
+}
+
+.col-sm-4 {
+	padding: 5em;
+}
+
+a, a:hover {
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
